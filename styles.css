@@ -1,0 +1,67 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+  background-color: hsl(240, 73%, 65%);
+}
+
+.main {
+  background-color: white;
+  border-radius: 1.5%;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12.5%;
+  position: relative;
+  width: 60%;
+}
+
+.left {
+  display: inline-block;
+  float: left;
+  height: 100%;
+  position: relative;
+  top: 15%;
+  width: 50%;
+}
+
+.left img {
+  position: relative;
+  left: -7.5%;
+}
+
+.right {
+  display: inline-block;
+  position: relative;
+  right: 5%;
+  top: 7.5%;
+  width: 50%;
+}
+
+.right h1 {
+  font-weight: 700;
+}
+
+@media(max-width: 1620px) {
+  body {
+    background-color: hsl(273, 75%, 66%);
+    text-align: center;
+  }
+
+  .main {
+    height: auto;
+    width: 45%;
+    padding: 2.5%;
+  }
+
+  .left, .right {
+    display: block;
+    position: static;
+    width: 100%;
+  }
+
+  .left img {
+    content:url("images/illustration-woman-online-mobile.svg");
+  }
+}
